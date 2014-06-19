@@ -1,0 +1,14 @@
+GITHUB
+
+save all code into Users/User/Dissertation
+Git is set to that
+GitHub online has repo for this
+
+Use 
+
+git add filename / -A (to add filename or all files in there)
+git commit -m 'messsage'
+git push origin master
+
+git status - to see if anything in directory needs added, etc
+
