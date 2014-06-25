@@ -1,0 +1,23 @@
+Once upon a time there were three little computers
+called Boris, Doris and Horace. One day Boris was having
+difficulty opening a file.
+
+"I just can't open this file!" said Boris sadly. "Maybe there's something
+wrong with my H: drive."
+"Maybe it's a network problem," said Doris. "I can't access the printer."
+"And I can't get onto the Internet," said Horace.
+
+Just then, along came the Nice Computer Manager.
+
+"Hello computers!" said the Nice Computer Manager.
+"Hello Nice Computer Manager!" said the computers.
+"How are you all today?" asked the Nice Computer Manager.
+"I can't open a file," said Boris, sadly.
+"And I can't access the printer," said Doris, glumly.
+"And I can't get onto the Internet," said Horace, gloomily.
+"Don't worry," said the Nice Computer Manager. "You're all being replaced by
+a shiney new laptop!"
+
+The End.
+
+

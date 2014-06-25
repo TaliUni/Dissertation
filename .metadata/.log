@@ -1,0 +1,1108 @@
+!SESSION 2014-06-24 12:19:02.747 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-24 12:24:47.688
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-24 12:24:47.689
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:34:37.723
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:34:37.723
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.723
+!MESSAGE Software being installed: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.723
+!MESSAGE Missing requirement: Fragment which patches PDE 0.9.0.201401250805 (org.eclipse.fx.ide.pde.fragment 0.9.0.201401250805) requires 'bundle org.eclipse.pde.core [3.7.0,3.9.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.723
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.723
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.724
+!MESSAGE To: org.eclipse.fx.ide.pde.prekepler.feature.feature.group [0.9.0.201401250805]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.724
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.724
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.pde.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.724
+!MESSAGE To: org.eclipse.fx.ide.pde.fragment [0.9.0.201401250805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:34:37.748
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:34:37.749
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.749
+!MESSAGE Software being installed: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.749
+!MESSAGE Missing requirement: Fragment which patches PDE 0.9.0.201401250805 (org.eclipse.fx.ide.pde.fragment 0.9.0.201401250805) requires 'bundle org.eclipse.pde.core [3.7.0,3.9.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.749
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.749
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.749
+!MESSAGE To: org.eclipse.fx.ide.pde.prekepler.feature.feature.group [0.9.0.201401250805]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.749
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.749
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.pde.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.749
+!MESSAGE To: org.eclipse.fx.ide.pde.fragment [0.9.0.201401250805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:34:37.801
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:34:37.801
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.801
+!MESSAGE Software being installed: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.801
+!MESSAGE Missing requirement: Fragment which patches PDE 0.9.0.201401250805 (org.eclipse.fx.ide.pde.fragment 0.9.0.201401250805) requires 'bundle org.eclipse.pde.core [3.7.0,3.9.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.801
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.801
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.801
+!MESSAGE To: org.eclipse.fx.ide.pde.prekepler.feature.feature.group [0.9.0.201401250805]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.801
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.802
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.pde.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.802
+!MESSAGE To: org.eclipse.fx.ide.pde.fragment [0.9.0.201401250805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:34:37.803
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:34:37.804
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.804
+!MESSAGE Software being installed: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.804
+!MESSAGE Missing requirement: Fragment which patches PDE 0.9.0.201401250805 (org.eclipse.fx.ide.pde.fragment 0.9.0.201401250805) requires 'bundle org.eclipse.pde.core [3.7.0,3.9.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.804
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.804
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.all.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.804
+!MESSAGE To: org.eclipse.fx.ide.pde.prekepler.feature.feature.group [0.9.0.201401250805]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:34:37.804
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.804
+!MESSAGE From: e(fx)clipse - IDE - Juno/Indigo 0.9.0.201401250805 (org.eclipse.fx.ide.pde.prekepler.feature.feature.group 0.9.0.201401250805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:34:37.804
+!MESSAGE To: org.eclipse.fx.ide.pde.fragment [0.9.0.201401250805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:51:26.998
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-06-24 14:51:26.998
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.998
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:26.999
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.000
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.001
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.002
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.003
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:51:27.003
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE Software being installed: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE Missing requirement: Xpand editor 1.0.1.v201108020519 (org.eclipse.xpand.ui 1.0.1.v201108020519) requires 'bundle com.ibm.icu [4.0.1.v20090822,5.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE From: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE To: org.eclipse.xtext.ui.feature.group [2.0.0,2.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE From: Xpand UI 1.1.1.v201108020519 (org.eclipse.xpand.ui.feature.group 1.1.1.v201108020519)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE To: org.eclipse.xpand.ui [1.0.1.v201108020519]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.003
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE From: Xtext UI 2.0.1.v201108020636 (org.eclipse.xtext.ui.feature.group 2.0.1.v201108020636)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.003
+!MESSAGE To: org.eclipse.xpand.ui.feature.group [1.1.0,1.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:51:27.089
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-06-24 14:51:27.089
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.089
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.090
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.091
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.092
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.093
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.094
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.094
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.094
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.094
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:51:27.094
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE Software being installed: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE Missing requirement: Xpand editor 1.0.1.v201108020519 (org.eclipse.xpand.ui 1.0.1.v201108020519) requires 'bundle com.ibm.icu [4.0.1.v20090822,5.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE From: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE To: org.eclipse.xtext.ui.feature.group [2.0.0,2.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE From: Xpand UI 1.1.1.v201108020519 (org.eclipse.xpand.ui.feature.group 1.1.1.v201108020519)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE To: org.eclipse.xpand.ui [1.0.1.v201108020519]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE From: Xtext UI 2.0.1.v201108020636 (org.eclipse.xtext.ui.feature.group 2.0.1.v201108020636)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.094
+!MESSAGE To: org.eclipse.xpand.ui.feature.group [1.1.0,1.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:51:27.352
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-06-24 14:51:27.352
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.352
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.353
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.354
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.355
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:51:27.355
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE Software being installed: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE Missing requirement: Xpand editor 1.0.1.v201108020519 (org.eclipse.xpand.ui 1.0.1.v201108020519) requires 'bundle com.ibm.icu [4.0.1.v20090822,5.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.355
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE From: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE To: org.eclipse.xtext.ui.feature.group [2.0.0,2.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.355
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE From: Xpand UI 1.1.1.v201108020519 (org.eclipse.xpand.ui.feature.group 1.1.1.v201108020519)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE To: org.eclipse.xpand.ui [1.0.1.v201108020519]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.355
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE From: Xtext UI 2.0.1.v201108020636 (org.eclipse.xtext.ui.feature.group 2.0.1.v201108020636)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.355
+!MESSAGE To: org.eclipse.xpand.ui.feature.group [1.1.0,1.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-06-24 14:51:27.356
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-06-24 14:51:27.356
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.356
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.357
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.358
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext UI" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Documentation" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xbase" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtend SDK" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Examples" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2014-06-24 14:51:27.359
+!MESSAGE "Xtext Runtime" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-06-24 14:51:27.359
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE Software being installed: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE Missing requirement: Xpand editor 1.0.1.v201108020519 (org.eclipse.xpand.ui 1.0.1.v201108020519) requires 'bundle com.ibm.icu [4.0.1.v20090822,5.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.359
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE From: MWE 2 language SDK 2.0.1.v201108020809 (org.eclipse.emf.mwe2.language.sdk.feature.group 2.0.1.v201108020809)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE To: org.eclipse.xtext.ui.feature.group [2.0.0,2.1.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.359
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE From: Xpand UI 1.1.1.v201108020519 (org.eclipse.xpand.ui.feature.group 1.1.1.v201108020519)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE To: org.eclipse.xpand.ui [1.0.1.v201108020519]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-06-24 14:51:27.359
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE From: Xtext UI 2.0.1.v201108020636 (org.eclipse.xtext.ui.feature.group 2.0.1.v201108020636)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-06-24 14:51:27.359
+!MESSAGE To: org.eclipse.xpand.ui.feature.group [1.1.0,1.2.0)
+!SESSION 2014-06-24 14:58:47.906 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-24 14:59:36.587
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-24 14:59:36.588
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
