@@ -1,0 +1,72 @@
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
+
+import java.awt.event.*;
+
+import javax.swing.SwingUtilities;
+import javax.swing.filechooser.*;
+import java.awt.FileDialog;
+
+
+
+public class Build1 extends JFrame implements ActionListener
+{
+    
+    FileDialog fileDil;
+    JButton openFileDil;
+    
+    public void Build1()
+    {
+        openFileDil = new JButton("open");
+        openFileDil.addActionListener(this);
+        
+        
+        this.setSize(100,100);
+       
+      pack();
+     setVisible(true);
+     
+     //add(openFileDil);
+      
+      // fileDil.showOpenDialog(this);
+      
+        
+    }
+    
+    public void addBut()
+    {
+        add(openFileDil);
+    }
+    
+    public void actionPerformed(ActionEvent e)
+      {
+        if(e.getSource()==openFileDil)
+        {
+           fileDil = new FileDialog(this, "fileloader", FileDialog.LOAD);
+        fileDil.getDirectory();
+        fileDil.setVisible(true); 
+        }
+      }
+    
+    public static void main(String[] args) 
+    {
+        Build1 buildMy = new Build1();
+       // buildMy.setVisible(true);
+        //buildMy.setSize(100,100);
+       // buildMy.addBut();
+       // buildMy.pack();
+        //buildMy.setVisible(true);
+        System.out.println("testing");
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+}

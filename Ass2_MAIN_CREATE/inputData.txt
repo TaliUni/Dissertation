@@ -1,0 +1,37 @@
+DC,1001, Joe Ian Cornish, 5, 4, 4, 5, 4, Advanced, Landscape
+DC,1002, Frans Lanting, 5, 5, 4, 5, 4, Advanced, Nature
+DC,1003, Steven John McCurry, 4, 3, 5, 5, 3, Advanced, Portrait 
+DC,1004, David Noton, 5, 3, 5, 5, 4, Intermediate, Travel
+DC,1005, David James Ward, 5, 4, 3, 4, 3, Intermediate, Landscape 
+DC,1006, Peter Alan Arnold, 3, 5, 4, 2, 3, Intermediate, Nature
+DC,1007, Ansel Adams, 5, 5, 5, 4, 5, Advanced, BlackandWhite
+DC,1008, David Bailey, 2, 2, 5, 3, 5, Advanced, Portrait
+DC,1009, John Michael Shaw, 5, 5, 2, 4, 2, Advanced, Nature 
+DC,1010, Lee Cuba Frost, 4, 3, 4, 4, 5, Beginner, BlackandWhite 
+DC,1011, Henri Cartier Bresson, 3, 2, 5, 5, 5, Advanced, BlackandWhite 
+DC,1012, Donald Don McCullin, 5, 3, 5, 3, 5, Intermediate, Portrait
+DC,1013, Yan Arthus Bertrand, 3, 3, 4, 4, 3, Beginner, Travel
+DC,1014, Galen Rowell, 5, 3, 4, 5, 3, Advanced, Travel
+DC,1015, David Ian Jarmin, 4, 5, 2, 4, 4, Beginner, Landscape 
+SC,1016,David Smith,2,1,5,1,2, 55,UK
+SC,1017,Kely Scot,2,3,5,4,4, 40,USA
+SC,1018,Laura Wood,2,3,5,1,1,22,Italy
+SC,1019,Ahmed Salim,4,3,4,3,5,24,India
+SC,1020,Omer Badri Saeed,1,1,2,2,1,37,Sudan
+SC,1021,Salah Sidig Hassan,3,5,1,2,2,33,UK
+SC,1022,Yasser Fathi,1,2,1,2,1,18,Sudan
+SC,1023,Amin Zine,4,5,4,5,3,22,USA
+SC,1024,Mohamed Ahmed Fathi,3,5,1,2,2,44,Sudan
+SC,1025,Salah Zain Saeed,2,3,4,4,5,56,UK
+MB,1026,Saz Freeman,5,4,2,3,0,Diva,Downhill Junkie
+MB,1027,Tes Freeman,5,0,3,5,5,Diva,Downhill Junkie
+MB,1028,Joan Joyce,5,0,5,4,5,Diva,Downhill Junkie
+MB,1029,Cassie Jan Melville-Barac,5,0,5,5,5,Diva,Air Maiden
+MB,1030,Jo Melville-Barac,5,4,2,3,0,Diva,Air Maiden
+MB,1031,Grace Walton,4,3,5,2,0,Diva,XC Goddess
+MB,1032,Caz Walton,4,3,5,2,0,Newbie,XC Goddess
+MB,1033,Tali Sian Brown,0,2,3,5,0,Newbie,Air Maiden 
+MB,1034,Natalie Freeman,5,4,2,3,0,Newbie,Downhill Junkie
+MB,1035,Brenda Freeman,5,4,2,3,0,Intermediate,XC Goddess
+MB,1036,Lucy Freeman,5,4,2,3,0,Intermediate,Downhill Junkie
+MB,1037,Mary Freeman,5,4,2,3,0,Intermediate,Air Maiden

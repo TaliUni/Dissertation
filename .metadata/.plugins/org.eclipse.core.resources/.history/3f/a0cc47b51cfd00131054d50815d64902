@@ -1,0 +1,23 @@
+
+public class Main {
+	
+	
+	
+	public static void main(String[] args) 
+    {
+		Build1 buildMy = new Build1();
+       // buildMy.setVisible(true);
+        //buildMy.setSize(100,100);
+       // buildMy.addBut();
+       // buildMy.pack();
+        //buildMy.setVisible(true);
+        System.out.println("testing");
+        
+        
+        
+        
+        
+        
+    }
+
+}

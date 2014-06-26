@@ -2,37 +2,90 @@ package build1;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.*;
+
+import java.awt.event.*;
+/*
+import javax.swing.SwingUtilities;
+import javax.swing.filechooser.*;
+import java.awt.FileDialog;*/
 
 
 
-public class Build1 extends JFrame
+public class Build1 extends JFrame implements ActionListener
 {
-    //JPanel mainPanel = new JPanel();
-    //JFrame mainFrame = new JFrame();
-    JFileChooser fileDil;// = new FileDialog(this);
+    //FileDialog is a standalone window and so can't go into a container
+    //it stops application from doing anything else until it's finished
+    FileDialog fileDil;
+    JButton openFileDil;
+    JPanel panel;
+    TextArea ta;
     
-    public void Build1()
+    public  Build1()
     {
-        fileDil = new JFileChooser();
-        fileDil.setVisible(true);
-        fileDil.setSize(50,50);
-        add(fileDil);
-        pack();
-        setVisible(true);
-      //  add(fileDil);
-       // mainFrame.setSize(400,200);
-      //  mainFrame.setVisible(true);
+        
+        
+      // setupFileDialog();
+     setUpPanel();
+     pack();
+     setVisible(true);
+      
+     
         
     }
     
-    public static void main(String[] args) 
+    //on application opening, file dialog immediately comes up
+    //application paused for all other action until this is finished
+    private void setupFileDialog()
     {
-        Build1 buildMy = new Build1();
-        buildMy.setSize(100,100);
-        buildMy.setVisible(true);
-        System.out.println("test");
-        
+        fileDil = new FileDialog(this, "fileloader", FileDialog.LOAD);
+        fileDil.getDirectory();
+       fileDil.setVisible(true);
+       
     }
+    
+    public String getFileName()
+    {
+        return fileDil.getFile();
+    }
+    
+    private void fileToTextArea()
+    {
+        ta.setText(getFileName());
+    }
+    
+    public void setUpPanel()
+    {
+        panel = new JPanel();
+           
+        ta = new TextArea(50,50);
+        panel.add(ta);
+        
+        openFileDil = new JButton();
+        openFileDil.addActionListener(this);
+        panel.add(openFileDil);
+        
+        add(panel);
+        
+      
+    }
+    
+    public void addBut()
+    {
+        add(openFileDil);
+    }
+    
+    public void actionPerformed(ActionEvent e)
+      {
+        if(e.getSource()==openFileDil)
+        {
+            System.out.println("testing");
+           setupFileDialog();
+        ta.setText(getFileName());
+        }
+      }
+    
+    
     
     
 }
