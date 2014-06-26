@@ -10,8 +10,7 @@ filename (short) is printed to textarea.
 button can be used again.
 textarea doesn't hold previous info.
 
-Problems:  On closing app, still running.  I suspect this is to do with 
-filedialog, and that it's still running.
+BUILD ONE COMPLETE: 26TH JUNE 2014
 
 
 */
@@ -40,6 +39,8 @@ public class Build1 extends JFrame implements ActionListener
         setUpPanel();
         pack();
         setVisible(true);
+        
+        setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
       
      
         
@@ -67,7 +68,8 @@ public class Build1 extends JFrame implements ActionListener
         {
             System.out.println("testing");
            setupFileDialog();
-        ta.setText(getFileName());
+            ta.setText(getFileName());
+        
         }
       }
     
