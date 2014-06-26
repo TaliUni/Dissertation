@@ -1,14 +1,26 @@
 package build1;
+/*
+Build1
+First build for project.
+Spec: Have file dialog come up, and print file to screen.
+What Does:  opens up GUI, with textarea and button.
+Button on clicking opens up a file dialog (LOAD type)
+open selecting a file, file dialog closes,
+filename (short) is printed to textarea.
+button can be used again.
+textarea doesn't hold previous info.
 
+Problems:  On closing app, still running.  I suspect this is to do with 
+filedialog, and that it's still running.
+
+
+*/
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 
 import java.awt.event.*;
-/*
-import javax.swing.SwingUtilities;
-import javax.swing.filechooser.*;
-import java.awt.FileDialog;*/
+
 
 
 
@@ -25,33 +37,12 @@ public class Build1 extends JFrame implements ActionListener
     {
         
         
-      // setupFileDialog();
-     setUpPanel();
-     pack();
-     setVisible(true);
+        setUpPanel();
+        pack();
+        setVisible(true);
       
      
         
-    }
-    
-    //on application opening, file dialog immediately comes up
-    //application paused for all other action until this is finished
-    private void setupFileDialog()
-    {
-        fileDil = new FileDialog(this, "fileloader", FileDialog.LOAD);
-        fileDil.getDirectory();
-       fileDil.setVisible(true);
-       
-    }
-    
-    public String getFileName()
-    {
-        return fileDil.getFile();
-    }
-    
-    private void fileToTextArea()
-    {
-        ta.setText(getFileName());
     }
     
     public void setUpPanel()
@@ -61,18 +52,13 @@ public class Build1 extends JFrame implements ActionListener
         ta = new TextArea(50,50);
         panel.add(ta);
         
-        openFileDil = new JButton();
+        openFileDil = new JButton("open file dialog");
         openFileDil.addActionListener(this);
         panel.add(openFileDil);
         
         add(panel);
         
       
-    }
-    
-    public void addBut()
-    {
-        add(openFileDil);
     }
     
     public void actionPerformed(ActionEvent e)
@@ -84,6 +70,28 @@ public class Build1 extends JFrame implements ActionListener
         ta.setText(getFileName());
         }
       }
+    
+    private void setupFileDialog()
+    {
+        fileDil = new FileDialog(this, "fileloader", FileDialog.LOAD);
+        fileDil.getDirectory();
+       fileDil.setVisible(true);
+       
+    }
+    
+     public String getFileName()
+    {
+        return fileDil.getFile();
+    }
+    
+   
+    
+   
+    
+   
+   
+    
+    
     
     
     
