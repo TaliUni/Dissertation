@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filesystem>
+	<name>TestOne</name>
+	<class>jfm.org.BlaBla</class>
+	<dependencies>
+		<jar>jfm1.jar</jar>
+		<jar>jfm2.jar</jar>
+		<jar>jfm3.jar</jar>
+	</dependencies>
+</filesystem>

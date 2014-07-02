@@ -1,0 +1,17 @@
+/BroadcastEvent.java/1.2/Tue Jan 17 00:14:56 2006//
+/BroadcastListener.java/1.1.1.1/Wed Jul 16 08:43:32 2003//
+/Broadcaster.java/1.2/Wed May 10 01:21:18 2006//
+/ChangeDirectoryEvent.java/1.2/Mon Oct 11 15:14:30 2004//
+/ChangeDirectoryListener.java/1.1.1.1/Wed Jul 16 08:43:32 2003//
+/ChangeFilesystemEvent.java/1.1/Sat Dec 31 16:51:28 2005//
+/ChangePanelEvent.java/1.2/Mon Oct 11 15:14:56 2004//
+/ChangePanelListener.java/1.1.1.1/Wed Jul 16 08:43:32 2003//
+/ChangeViewEvent.java/1.2/Sat Dec 31 16:58:44 2005//
+/ChangeViewListener.java/1.1.1.1/Wed Jul 16 08:43:32 2003//
+/ColorChangeEvent.java/1.1/Mon Oct 11 17:46:54 2004//
+/ColorChangeListener.java/1.1/Thu Sep  9 00:13:32 2004//
+/FileListSelectionEvent.java/1.2/Mon Oct 11 15:15:26 2004//
+/FileListSelectionListener.java/1.1.1.1/Wed Jul 16 08:43:32 2003//
+/FontChangeEvent.java/1.1/Mon Oct 11 15:43:06 2004//
+/FontChangeListener.java/1.1/Thu Sep  9 00:58:54 2004//
+/HelpURLChangeEvent.java/1.1/Tue Jan 17 00:05:32 2006//

@@ -1,0 +1,5 @@
+<!ELEMENT filesystem (name,class,dependencies?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT dependencies (jar+)>
+<!ELEMENT jar (#PCDATA)>

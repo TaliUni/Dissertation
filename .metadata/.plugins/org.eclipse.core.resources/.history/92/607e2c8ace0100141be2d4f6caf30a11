@@ -1,0 +1,94 @@
+
+<project name="JFM" default="release" basedir=".">
+    <description>
+        The build file that creates a distribution of the JFM Application
+    </description>
+  <!-- set global properties for this build -->
+  <property name="build_no" value="0.9.1"/>
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="jfm-${build_no}"/>
+  <property name="exejar" value="jfm.jar"/>
+  <property name="deprecation" value="on"/>
+  <property name="javahelp" location="javahelp"/>
+  <property name="help_jar" value="libs/help.jar"/>
+  <property name="release_zip" value="jfm-${build_no}.zip"/>
+  <property name="release_tar" value="jfm-${build_no}.tar"/>  
+  <property name="release_targz" value="${release_tar}.gz"/>  
+
+  <path id="project.class.path" >
+<!--    <pathelement location="libs/commons-net-1.3.0.jar"/>
+  	<pathelement location="libs/jakarta-oro-2.0.8.jar"/>
+   	<pathelement location="libs/synthetica.jar"/>  	
+	<pathelement location="libs/jh.jar"/> -->  	
+  </path>
+
+  <pathconvert property="libs" refid="project.class.path" pathsep=" ">
+    <map from="${user.dir}/" to=""/>  	
+  </pathconvert>
+	  	
+	
+  <target name="init">
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  	<mkdir dir="${dist}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" compiler="javac1.5" debug="off" deprecation="on" optimize="on">
+<!--    	<compilerarg value="-Xlint:unchecked"/> -->
+     	 <classpath refid="project.class.path"/>    	
+  	</javac>
+  	<copy todir="${build}">
+  		<fileset dir="${src}">
+  			<include name="**/*.gif"/>
+  		</fileset>
+  	</copy>
+  </target>
+
+  <target name="exe" depends="compile"
+        description="generate the executable jar" >
+	    <!-- Put everything in ${build} into the  jar file -->
+	    <jar  destfile="${dist}/${exejar}" basedir="${build}" update="true" >
+			<manifest >
+		                <attribute name="Built-By" value="${user.name}"/>
+			    	<attribute name="Main-Class" value="org.jfm.main.Main"/>
+  			</manifest>	    	
+  		</jar>
+  </target>
+	
+  <target name="dist" depends="exe"
+        description="generate the distribution" >
+	<!--<jar destfile="${help_jar}" basedir="${javahelp}" update="true">
+	</jar>
+  	<copy todir="${dist}/libs">
+        <fileset dir="libs"/>
+  	</copy>-->
+	<copy tofile="${dist}/run.bat">
+		<fileset file="rundeploy.bat">
+		</fileset>
+	</copy>
+	<copy tofile="${dist}/run.sh">
+		<fileset file="rundeploy.sh">
+		</fileset>
+	</copy>
+  	<chmod file="${dist}/run.sh" perm="ugo+rx"/>
+  </target>
+
+  <target name="release" depends="dist" description="generate the distributable tar.gz and zip">
+	<zip destfile="${release_zip}" basedir="${dist}"/>
+	<tar tarfile="${release_tar}" basedir="${dist}"/>
+	<gzip zipfile="${release_targz}" src="${release_tar}"/>	
+	<delete file="${release_tar}"/>
+  </target>
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+    <delete file="${release_zip}"/>
+    <delete file="${release_targz}"/>
+  </target>
+</project>
