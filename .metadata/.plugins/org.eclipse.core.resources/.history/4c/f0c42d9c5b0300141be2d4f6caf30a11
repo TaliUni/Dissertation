@@ -8,7 +8,12 @@ import org.jfm.filesystems.JFMFile;
 import org.jfm.views.fview.*;
 
 /**
-Me
+ * Title:        Java File Manager
+ * Description:
+ * Copyright:    Copyright (c) 2001
+ * Company:      Home
+ * @author Giurgiu Sergiu
+ * @version 1.0
  */
 
 public class GetFileNameAction implements Action {
